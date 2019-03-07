@@ -27,6 +27,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+        System.out.println("Start Running");
         Main homework = new Main();
         System.out.println(fibonacciLoop(20));
         homework.numbersSmallerThaOneThousand();
