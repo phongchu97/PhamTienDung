@@ -1,8 +1,20 @@
 package Assignment3;
 
+import java.util.ArrayList;
+
 public class Main {
+
     public static void main(String[] args){
-        Triangle triangle1 = new Triangle();
-        Rectangle rectangle1 = new Rectangle();
+        ArrayList<Triangle> triangleList = new ArrayList();
+        ArrayList<Rectangle> rectangleList = new ArrayList();
+
+        triangleList.add(new Triangle());
+        triangleList.add(new Triangle());
+        triangleList.add(new Triangle());
+
+        for(Triangle trL: triangleList){
+            trL.triangle();
+        }
+
     }
 }
